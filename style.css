@@ -13,7 +13,7 @@ header {
     padding: 20px;
     display: flex; /* Включаем flexbox для header */
     justify-content: space-between; /* Располагаем элементы по краям */
-    align-items: center; /* Выравниваем элементы по вертикали */
+    align-items: right; /* Выравниваем элементы по вертикали */
 }
 
 .header-container {
@@ -35,8 +35,8 @@ header {
 /*  Добавьте медиа-запросы для адаптивности, если необходимо */
 @media (max-width: 768px) {
     .header-container {
-        flex-direction: column; /* Меняем направление на столбчатое при узких экранах */
-        align-items: center;
+        flex-direction: row; /* Меняем направление на столбчатое при узких экранах */
+        align-items: right;
     }
     .logo {
         margin-bottom: 10px;

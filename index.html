@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Название вашего проекта</title>
+    <link rel="icon" type="image/png" href="icon.png"> <!--  Проверьте путь к вашей иконке -->
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="icon.png"> <!-- Замените icon.png на путь к вашей иконке -->
 </head>
 <body>
     <header>
@@ -16,12 +16,18 @@
             <h2>Описание проекта</h2>
             <p>Здесь напишите описание вашего проекта.  Расскажите о его функциональности, преимуществах и целевой аудитории.  Чем подробнее, тем лучше.</p>
         </section>
-        <section class="screenshots">
-            <h2>Скриншоты</h2>
+        <section class="videos">
+            <h2>Видео</h2>
             <div class="gallery">
-                <img src="screenshot1.png" alt="Скриншот 1">
-                <img src="screenshot2.png" alt="Скриншот 2">
-                <!-- Добавьте больше скриншотов -->
+                <video width="320" height="240" controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <!-- Добавьте больше видео -->
             </div>
         </section>
         <section class="download">
@@ -34,4 +40,3 @@
     </footer>
 </body>
 </html>
- 

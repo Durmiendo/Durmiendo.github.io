@@ -33,11 +33,13 @@ section {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* ... (ваш CSS код) ... */
+.gallery video {
+    margin: 10px;
+    border: 1px solid #555;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+ 
 
 .download a {
     display: inline-block;

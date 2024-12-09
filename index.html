@@ -3,42 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sueno</title>
-    <link rel="icon" type="image/png" href="iconc.png"> <!--  Проверьте путь к вашей иконке -->
+    <title>Sueno - Мод для [Название игры]</title>  <!-- Добавьте название игры -->
+    <link rel="icon" type="image/png" href="iconc.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <img src="iconc.png", alt="logo" class="logo">
+            <img src="iconc.png" alt="Логотип Sueno" class="logo">
             <div class="title">
                 <h1>Sueno</h1>
-            </div>  
+                <p>Мод для [Название игры]</p>  <!-- Добавьте название игры -->
+            </div>
         </div>
     </header>
+
     <main>
         <section class="description">
-            <h2>Мод, добавляющий новую планету, множество разнообразных построик, юнитов, реалистичное освещение и много другое</h2>
+            <h2>Описание</h2>
+            <p>Мод Sueno добавляет новую планету, множество разнообразных построек, юнитов, реалистичное освещение и многое другое.  [Добавьте более подробное описание мода]</p>
+            <p> [Добавьте информацию о совместимости, требованиях и т.д.]</p>
         </section>
+
+        <section class="features">  <!-- Новое сечение для фич -->
+            <h2>Ключевые особенности</h2>
+            <ul>
+                <li>Новая планета с уникальным ландшафтом</li>
+                <li>Разнообразные постройки и структуры</li>
+                <li>Новые юниты и существа</li>
+                <li>Реалистичное освещение и эффекты</li>
+                <li>[Добавьте другие особенности]</li>
+            </ul>
+        </section>
+
         <section class="videos">
             <h2>Видео</h2>
             <div class="gallery">
-                <video width="320" height="240" controls>
-                    <source src="video1.mp4" type="video/mp4">
-                    Ваш браузер не поддерживает видео.
-                </video>
-                <video width="320" height="240" controls>
-                    <source src="video2.mp4" type="video/mp4">
-                    Ваш браузер не поддерживает видео.
-                </video>
+                <figure>  <!-- Используем <figure> для группировки видео и подписи -->
+                    <video width="320" height="240" controls>
+                        <source src="video1.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                    <figcaption>Видео 1: [Краткое описание видео]</figcaption>
+                </figure>
+                <figure>
+                    <video width="320" height="240" controls>
+                        <source src="video2.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                    <figcaption>Видео 2: [Краткое описание видео]</figcaption>
+                </figure>
                 <!-- Добавьте больше видео -->
             </div>
         </section>
+
         <section class="download">
             <h2>Скачать</h2>
-            <a href="ваш_файл.zip" download>Скачать проект</a> <!-- Замените на ссылку для скачивания -->
+            <a href="ваш_файл.zip" download class="download-button">Скачать мод</a>
         </section>
     </main>
+
     <footer>
         <p>2024 Durmiendo/SuenoDev</p>
     </footer>

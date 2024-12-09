@@ -6,11 +6,43 @@ body {
     padding: 0;
 }
 
+/* ... (ваш существующий CSS код) ... */
+
 header {
     background-color: #333;
     padding: 20px;
-    text-align: center;
+    display: flex; /* Включаем flexbox для header */
+    justify-content: space-between; /* Располагаем элементы по краям */
+    align-items: center; /* Выравниваем элементы по вертикали */
 }
+
+.header-container {
+    display: flex; /* Включаем flexbox для контейнера */
+    width: 100%; /* Занимаем всю ширину */
+    max-width: 1200px; /* Ограничиваем максимальную ширину для адаптивности */
+    margin: 0 auto; /* Центрируем контейнер */
+}
+
+.logo {
+    max-height: 50px; /* Настраивайте высоту логотипа по необходимости */
+}
+
+.title {
+    /* Добавьте стили для блока с названием проекта, если нужно */
+    text-align: right;
+}
+
+/*  Добавьте медиа-запросы для адаптивности, если необходимо */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column; /* Меняем направление на столбчатое при узких экранах */
+        align-items: center;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+}
+ 
 
 h1 {
     color: #fff;
